@@ -1,22 +1,17 @@
-import React from 'react'
-import { Outlet } from 'react-router'
+import React from "react";
+import { Outlet } from "react-router";
 
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const LayoutOne = () => {
   return (
     <>
-    
-<Navbar />
-    <Outlet />
-    <Footer />
-    
-    
-    
-    
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default LayoutOne
+export default LayoutOne;
